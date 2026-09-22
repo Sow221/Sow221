@@ -1,33 +1,33 @@
-# Hi, I'm Sow221 👋
+# Bonjour, je suis Sow221 👋
 
-## Software Developer | Data & Machine Learning | AI Enthusiast
+## Développeur logiciel | Données & Machine Learning | Passionné d'IA
 
-I am a self-taught Software Developer focused on **Data, Machine Learning and AI-powered solutions**.
+Je suis développeur logiciel et autodidacte en intelligence artificielle. Je m'intéresse particulièrement aux **données**, au **Machine Learning** et à la construction de solutions logicielles utiles et évolutives.
 
-I build practical software that transforms data into useful, reliable and scalable products. My current focus is growing from software development toward **Machine Learning Engineering and MLOps**.
+Mon objectif est de réunir le développement logiciel, l'analyse de données, la modélisation prédictive et le MLOps pour créer des applications intelligentes répondant à des problèmes concrets, notamment dans le contexte africain.
 
 <p align="left">
   <a href="https://github.com/Sow221">
-    <img src="https://komarev.com/ghpvc/?username=Sow221&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
+    <img src="https://komarev.com/ghpvc/?username=Sow221&label=Vues%20du%20profil&color=0e75b6&style=flat" alt="Vues du profil" />
   </a>
 </p>
 
 ---
 
-## About me
+## À propos de moi
 
-- 💻 Software Developer building useful and maintainable applications
-- 🤖 Self-taught learner in Artificial Intelligence and Machine Learning
-- 📊 Interested in data analysis, predictive modeling and intelligent systems
-- 🐍 Using Python for data and machine learning projects
-- 🚀 Learning how to deploy and monitor ML-powered applications
-- 🌍 Interested in technology solutions adapted to African contexts
+- 💻 Développeur logiciel orienté vers la conception d'applications utiles et maintenables
+- 🤖 Autodidacte en intelligence artificielle et en Machine Learning
+- 📊 Intéressé par l'analyse de données, la modélisation prédictive et les systèmes intelligents
+- 🐍 J'utilise Python pour mes projets de données et de Machine Learning
+- 🚀 J'apprends actuellement le déploiement, l'orchestration et la supervision des applications ML
+- 🌍 Je souhaite contribuer à des solutions technologiques adaptées aux réalités africaines
 
 ---
 
-## Tech stack
+## Compétences techniques
 
-### Languages and development
+### Développement logiciel
 
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python" />
@@ -39,7 +39,7 @@ I build practical software that transforms data into useful, reliable and scalab
   <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white" alt="FastAPI" />
 </p>
 
-### Data and Machine Learning
+### Données et Machine Learning
 
 <p>
   <img src="https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white" alt="NumPy" />
@@ -48,13 +48,15 @@ I build practical software that transforms data into useful, reliable and scalab
   <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white" alt="TensorFlow" />
 </p>
 
-- Data cleaning and exploratory data analysis
-- Feature engineering
-- Machine Learning fundamentals
-- Supervised learning and model evaluation
-- Predictive modeling
+- Nettoyage et préparation des données
+- Analyse exploratoire des données
+- Création de variables (*feature engineering*)
+- Fondamentaux du Machine Learning
+- Apprentissage supervisé
+- Évaluation de modèles
+- Modélisation prédictive
 
-### DevOps, MLOps and observability
+### DevOps, MLOps et observabilité
 
 <p>
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" alt="Docker" />
@@ -64,68 +66,108 @@ I build practical software that transforms data into useful, reliable and scalab
   <img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat&logo=prometheus&logoColor=white" alt="Prometheus" />
 </p>
 
-> TensorFlow, FastAPI, Docker, MLflow, Dagster, Grafana and Prometheus are part of my current learning and experimentation path.
+> TensorFlow, FastAPI, Docker, MLflow, Dagster, Grafana et Prometheus font partie de mon parcours actuel d'apprentissage et d'expérimentation.
 
 ---
 
-## Featured projects
+## Projets principaux
 
 ### [CIF Credit Intelligence](https://github.com/Sow221/cif-credit-intelligence)
 
-Data-driven credit decision support platform for financial institutions. The project explores credit risk scoring, thin-file customer analysis and methodological auditing.
+Plateforme d'aide à la décision de crédit pour les institutions financières. Le projet explore le scoring du risque de crédit, l'analyse des clients *thin-file* et l'audit méthodologique.
 
-**Focus:** Data, credit scoring and Machine Learning
+**Domaines :** données, scoring de crédit et Machine Learning
+
+### [Description de CIF Credit Intelligence](https://github.com/Sow221/cif-credit-intelligencedescription)
+
+Documentation et description de la plateforme CIF Credit Intelligence, de ses objectifs et de son approche méthodologique.
 
 ### [Tontine SN 2026](https://github.com/Sow221/tontine-sn-2026)
 
-Digital tontine management platform with authentication, digital payments, credit scoring, notifications and services adapted to the Senegalese context.
+Application Laravel de gestion de tontines au Sénégal avec authentification OTP, paiements Wave et Orange Money, scoring de crédit, services USSD et notifications SMS/Push.
 
-**Technologies:** Laravel, PHP and APIs
+**Technologies :** Laravel, PHP et APIs
+
+### [Tontine SN](https://github.com/Sow221/tontine-sn)
+
+Application Laravel de gestion de tontines au Sénégal. Ce dépôt correspond à une version du projet Tontine SN.
+
+### [Tontine 221](https://github.com/Sow221/tontine-221)
+
+Projet autour de la plateforme TontineSN et de la digitalisation des tontines.
 
 ### [AI Learning Lab](https://github.com/Sow221/AI-Learning-Lab)
 
-Practical learning laboratory for exploring Artificial Intelligence, Data Science and Machine Learning through experiments and projects.
+Espace pratique d'apprentissage et d'expérimentation consacré à l'intelligence artificielle, aux données et au Machine Learning.
 
 ### [ML Learning](https://github.com/Sow221/ML-Leraning)
 
-Learning space dedicated to Machine Learning concepts, experimentation and practical progress.
+Espace d'apprentissage consacré aux concepts, aux expérimentations et à la progression en Machine Learning.
+
+### [L-O-R](https://github.com/Sow221/L-O-R)
+
+Projet TypeScript orienté apprentissage, pratique et expérimentation.
+
+### [MS Lab](https://github.com/Sow221/MS-lab)
+
+Espace d'apprentissage avec une approche pratique et expérimentale.
 
 ---
 
-## Current learning path
+## Projets web et interfaces
 
-1. Strengthen Python for Data Science
-2. Master Machine Learning fundamentals
-3. Build and evaluate models with real-world datasets
-4. Learn TensorFlow for Deep Learning
-5. Serve models with FastAPI
-6. Containerize applications with Docker
-7. Track experiments with MLflow
-8. Orchestrate data and ML pipelines with Dagster
-9. Monitor services with Prometheus and Grafana
+Ces dépôts regroupent des projets de pages d'accueil et d'interfaces web réalisés avec JavaScript et TypeScript :
 
----
-
-## What I am building toward
-
-- Data-driven applications
-- Credit scoring systems
-- Machine Learning APIs
-- Automated data pipelines
-- Observable and production-ready AI services
-- Digital solutions for African markets
-
-## Professional goal
-
-Become a strong **Machine Learning Engineer** by combining:
-
-**software engineering + data analysis + machine learning + MLOps**
+- [Baol Battle CTS Event](https://github.com/Sow221/baol-battle_cts-event)
+- [CTS BB](https://github.com/Sow221/cts_bb)
+- [BB Event](https://github.com/Sow221/bb_event)
+- [BB CTS](https://github.com/Sow221/bb_cts)
+- [Baol Battle CTS](https://github.com/Sow221/baol_battle_cts)
+- [Octaforce's Espace](https://github.com/Sow221/octaforce-s-espace)
 
 ---
 
-## Let's connect
+## Autres projets d'apprentissage
 
-I am open to learning, collaboration and meaningful projects related to Software Development, Data, Machine Learning and Artificial Intelligence.
+- [L-3 Orienté Objet](https://github.com/Sow221/L-3-Oriente-Objet) — projet Java orienté objet
+- [Anglais](https://github.com/Sow221/Anglais) — ressources et modules d'apprentissage de l'anglais
+
+---
+
+## Mon parcours actuel
+
+1. Renforcer Python pour la Data Science
+2. Maîtriser les fondamentaux du Machine Learning
+3. Construire et évaluer des modèles sur des données réelles
+4. Approfondir TensorFlow pour le Deep Learning
+5. Exposer des modèles avec FastAPI
+6. Conteneuriser les applications avec Docker
+7. Suivre les expériences avec MLflow
+8. Orchestrer les pipelines de données et de Machine Learning avec Dagster
+9. Superviser les services avec Prometheus et Grafana
+
+---
+
+## Ce que je souhaite construire
+
+- Des applications basées sur les données
+- Des systèmes de scoring de crédit
+- Des APIs de Machine Learning
+- Des pipelines de données automatisés
+- Des services d'IA observables et prêts pour la production
+- Des solutions numériques adaptées aux marchés africains
+
+## Objectif professionnel
+
+Devenir un ingénieur Machine Learning solide en combinant :
+
+**génie logiciel + analyse de données + Machine Learning + MLOps**
+
+---
+
+## Me contacter
+
+Je suis ouvert à l'apprentissage, à la collaboration et aux projets intéressants dans les domaines du développement logiciel, des données, du Machine Learning et de l'intelligence artificielle.
 
 <p>
   <a href="https://github.com/Sow221"><img src="https://img.shields.io/badge/GitHub-Sow221-181717?style=flat&logo=github&logoColor=white" alt="GitHub" /></a>
