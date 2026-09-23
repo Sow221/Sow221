@@ -82,6 +82,8 @@ Laravel application for the digital management of tontines (rotating savings gro
 
 ## Tech stack
 
+**Languages**
+
 <div>
   <a href="https://www.python.org/"><img src="https://skillicons.dev/icons?i=py" height="42" alt="Python" /></a>
   <span><strong>Python</strong></span>
@@ -161,8 +163,7 @@ Laravel application for the digital management of tontines (rotating savings gro
   <a href="https://dvc.org/"><img src="https://cdn.simpleicons.org/dvc/13ADC7" height="42" alt="DVC" /></a>
   <span><strong>DVC</strong></span>
   &nbsp;
-  <a href="https://dagster.io/"><img src="https://cdn.simpleicons.org/dagster/4F43DD" height="42" alt="Dagster" /></a>
-  <span><strong>Dagster</strong></span>
+  <a href="https://dagster.io/"><strong>Dagster</strong></a>
 </div>
 
 ---
