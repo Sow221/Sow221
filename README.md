@@ -8,7 +8,7 @@ I build software systems where applications, data and machine learning meet to s
 with a focus on system design, testing, reproducibility and deployment.
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-portefolio--ms.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://portefolio-ms.vercel.app)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Moussa%20Sow-0A66C2?style=for-the-badge)](https://www.linkedin.com/in/ms-officiel)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Moussa%20Sow-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ms-officiel)
 
 </div>
 
@@ -18,26 +18,27 @@ with a focus on system design, testing, reproducibility and deployment.
 
 ### [CIF Credit Engine](https://github.com/Sow221/cif-credit-intelligencedescription)
 
-Credit-risk engineering project for microfinance institutions: versioned data pipelines, calibrated gradient-boosting models, explainability, model serving and monitoring — built as a reproducible ML system rather than a notebook.
+Credit-risk engineering project for microfinance institutions: versioned data pipelines, calibrated gradient-boosting models, explainability, model serving and monitoring — built as a reproducible ML system.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![XGBoost](https://img.shields.io/badge/XGBoost-189FDD?style=flat-square)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white)
-![DVC](https://img.shields.io/badge/DVC-13ADC7?style=flat-square&logo=dvc&logoColor=white)
-![Dagster](https://img.shields.io/badge/Dagster-4F43DD?style=flat-square)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+<p>
+  <a href="https://www.python.org/"><img src="https://skillicons.dev/icons?i=py" height="36" alt="Python" /></a>
+  <a href="https://fastapi.tiangolo.com/"><img src="https://skillicons.dev/icons?i=fastapi" height="36" alt="FastAPI" /></a>
+  <a href="https://mlflow.org/"><img src="https://cdn.simpleicons.org/mlflow/0194E2" height="36" alt="MLflow" /></a>
+  <a href="https://dvc.org/"><img src="https://cdn.simpleicons.org/dvc/13ADC7" height="36" alt="DVC" /></a>
+  <a href="https://www.docker.com/"><img src="https://skillicons.dev/icons?i=docker" height="36" alt="Docker" /></a>
+</p>
 
 ### [CIF Credit Platform](https://github.com/Sow221/cif-credit-intelligence)
 
-Decision-support application for credit officers: a FastAPI scoring backend with SHAP explanations and a four-way decision engine (approve · human review · adjust · reject), exposed through a React/TypeScript interface.
+Decision-support application for credit officers: a FastAPI scoring backend with SHAP explanations and a four-way decision engine (approve · human review · adjust · reject), exposed through a React interface.
 
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![SHAP](https://img.shields.io/badge/SHAP-FF0051?style=flat-square)
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square)
-![Storybook](https://img.shields.io/badge/Storybook-FF4785?style=flat-square&logo=storybook&logoColor=white)
+<p>
+  <a href="https://react.dev/"><img src="https://skillicons.dev/icons?i=react" height="36" alt="React" /></a>
+  <a href="https://www.typescriptlang.org/"><img src="https://skillicons.dev/icons?i=ts" height="36" alt="TypeScript" /></a>
+  <a href="https://fastapi.tiangolo.com/"><img src="https://skillicons.dev/icons?i=fastapi" height="36" alt="FastAPI" /></a>
+  <a href="https://playwright.dev/"><img src="https://skillicons.dev/icons?i=playwright" height="36" alt="Playwright" /></a>
+  <a href="https://storybook.js.org/"><img src="https://skillicons.dev/icons?i=storybook" height="36" alt="Storybook" /></a>
+</p>
 
 ```text
 CIF Credit Engine ──► scoring & decision API ──► CIF Credit Platform
@@ -48,39 +49,56 @@ CIF Credit Engine ──► scoring & decision API ──► CIF Credit Platform
 
 Laravel application for the digital management of tontines (rotating savings groups): members, contribution cycles, mobile-money payments, notifications and credit-related decision support.
 
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
-![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![PHPUnit](https://img.shields.io/badge/PHPUnit-3C9CD7?style=flat-square)
+<p>
+  <a href="https://www.php.net/"><img src="https://skillicons.dev/icons?i=php" height="36" alt="PHP" /></a>
+  <a href="https://laravel.com/"><img src="https://skillicons.dev/icons?i=laravel" height="36" alt="Laravel" /></a>
+  <a href="https://www.mysql.com/"><img src="https://skillicons.dev/icons?i=mysql" height="36" alt="MySQL" /></a>
+</p>
 
 ---
 
 ## Tech stack
 
-**Languages**
-
-[![Languages](https://skillicons.dev/icons?i=py,php,ts,js,java)](https://skillicons.dev)
+<p>
+  <a href="https://www.python.org/"><img src="https://skillicons.dev/icons?i=py" height="42" alt="Python" /></a>
+  <a href="https://www.php.net/"><img src="https://skillicons.dev/icons?i=php" height="42" alt="PHP" /></a>
+  <a href="https://www.typescriptlang.org/"><img src="https://skillicons.dev/icons?i=ts" height="42" alt="TypeScript" /></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://skillicons.dev/icons?i=js" height="42" alt="JavaScript" /></a>
+  <a href="https://www.java.com/"><img src="https://skillicons.dev/icons?i=java" height="42" alt="Java" /></a>
+</p>
 
 **Backend & frontend**
 
-[![Frameworks](https://skillicons.dev/icons?i=fastapi,laravel,react,vite,tailwind)](https://skillicons.dev)
+<p>
+  <a href="https://fastapi.tiangolo.com/"><img src="https://skillicons.dev/icons?i=fastapi" height="42" alt="FastAPI" /></a>
+  <a href="https://laravel.com/"><img src="https://skillicons.dev/icons?i=laravel" height="42" alt="Laravel" /></a>
+  <a href="https://react.dev/"><img src="https://skillicons.dev/icons?i=react" height="42" alt="React" /></a>
+  <a href="https://vite.dev/"><img src="https://skillicons.dev/icons?i=vite" height="42" alt="Vite" /></a>
+  <a href="https://tailwindcss.com/"><img src="https://skillicons.dev/icons?i=tailwind" height="42" alt="Tailwind CSS" /></a>
+</p>
 
 **Data & machine learning**
 
-[![Data & ML](https://skillicons.dev/icons?i=sklearn,tensorflow,postgres,mysql)](https://skillicons.dev)
-<br/>
-![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![XGBoost](https://img.shields.io/badge/XGBoost-189FDD?style=flat-square)
-![SHAP](https://img.shields.io/badge/SHAP-FF0051?style=flat-square)
+<p>
+  <a href="https://scikit-learn.org/"><img src="https://skillicons.dev/icons?i=sklearn" height="42" alt="scikit-learn" /></a>
+  <a href="https://www.tensorflow.org/"><img src="https://skillicons.dev/icons?i=tensorflow" height="42" alt="TensorFlow" /></a>
+  <a href="https://www.postgresql.org/"><img src="https://skillicons.dev/icons?i=postgres" height="42" alt="PostgreSQL" /></a>
+  <a href="https://www.mysql.com/"><img src="https://skillicons.dev/icons?i=mysql" height="42" alt="MySQL" /></a>
+  <a href="https://pandas.pydata.org/"><img src="https://cdn.simpleicons.org/pandas/150458" height="42" alt="pandas" /></a>
+  <a href="https://numpy.org/"><img src="https://cdn.simpleicons.org/numpy/013243" height="42" alt="NumPy" /></a>
+</p>
 
 **MLOps & delivery**
 
-[![DevOps](https://skillicons.dev/icons?i=docker,githubactions,git,linux)](https://skillicons.dev)
-<br/>
-![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white)
-![DVC](https://img.shields.io/badge/DVC-13ADC7?style=flat-square&logo=dvc&logoColor=white)
-![Dagster](https://img.shields.io/badge/Dagster-4F43DD?style=flat-square)
+<p>
+  <a href="https://www.docker.com/"><img src="https://skillicons.dev/icons?i=docker" height="42" alt="Docker" /></a>
+  <a href="https://github.com/features/actions"><img src="https://skillicons.dev/icons?i=githubactions" height="42" alt="GitHub Actions" /></a>
+  <a href="https://git-scm.com/"><img src="https://skillicons.dev/icons?i=git" height="42" alt="Git" /></a>
+  <a href="https://www.linux.org/"><img src="https://skillicons.dev/icons?i=linux" height="42" alt="Linux" /></a>
+  <a href="https://mlflow.org/"><img src="https://cdn.simpleicons.org/mlflow/0194E2" height="42" alt="MLflow" /></a>
+  <a href="https://dvc.org/"><img src="https://cdn.simpleicons.org/dvc/13ADC7" height="42" alt="DVC" /></a>
+  <a href="https://dagster.io/"><img src="https://cdn.simpleicons.org/dagster/4F43DD" height="42" alt="Dagster" /></a>
+</p>
 
 ---
 
@@ -90,5 +108,5 @@ Deepening software architecture, information systems and machine learning engine
 
 ## Education
 
-**Licence — Développement et Administration d'Applications**<br/>
+**Licence — Développement et Administration d’Applications**<br/>
 Université Alioune Diop de Bambey
