@@ -119,8 +119,3 @@ flowchart LR
 ## 📌 Currently
 
 Deepening software architecture, information systems and machine learning engineering — building reliable software systems where data and AI create useful capabilities.
-
-## 🎓 Education
-
-**Licence — Développement et Administration d'Applications**<br/>
-Université Alioune Diop de Bambey
