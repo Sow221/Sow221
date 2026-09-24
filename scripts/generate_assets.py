@@ -225,6 +225,31 @@ def divider() -> str:
 '''
 
 
+# 24x24 line icons stroked with the palette gradient: legible in light and dark mode.
+ICONS = {
+    "layers": '<path d="M12 3 21 8 12 13 3 8Z"/><path d="M3 12.5 12 17.5 21 12.5"/><path d="M3 17 12 22 21 17"/>',
+    "pipeline": '<circle cx="5" cy="12" r="2"/><circle cx="12" cy="6" r="2"/><circle cx="12" cy="18" r="2"/>'
+                '<circle cx="19" cy="12" r="2"/><path d="M6.6 10.8 10.4 7.2M6.6 13.2 10.4 16.8M13.6 7.2 17.4 10.8M13.6 16.8 17.4 13.2"/>',
+    "decision": '<path d="M4 20H20"/><path d="M7 16V11M12 16V7M17 16V13"/><path d="M5 8 9 5 13 7 19 3"/>',
+    "shield": '<path d="M12 3 19 6V11C19 16 16 19.5 12 21 8 19.5 5 16 5 11V6Z"/><path d="M9 12 11 14 15 10"/>',
+    "integration": '<path d="M4 8H18M15 5 18 8 15 11"/><path d="M20 16H6M9 13 6 16 9 19"/>',
+    "monitor": '<rect x="3" y="4" width="18" height="13" rx="2"/><path d="M6 13 9 10 12 12 17 7"/><path d="M9 21H15M12 17V21"/>',
+    "target": '<circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="4"/><circle cx="12" cy="12" r=".8"/>',
+    "book": '<path d="M4 5C7 4 10 4 12 6 14 4 17 4 20 5V19C17 18 14 18 12 20 10 18 7 18 4 19Z"/><path d="M12 6V20"/>',
+    "chat": '<path d="M4 5H20V15H10L6 19V15H4Z"/><path d="M8 9H16M8 12H13"/>',
+    "bolt": '<path d="M13 2 5 13H11L10 22 19 10H13Z"/>',
+}
+
+
+def icon(body: str) -> str:
+    return (
+        '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="url(#g)" '
+        'stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'
+        f'<defs><linearGradient id="g" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="24" y2="24"><stop offset="0" stop-color="{TEAL}"/>'
+        f'<stop offset="1" stop-color="{INDIGO}"/></linearGradient></defs>{body}</svg>\n'
+    )
+
+
 files = {
     "banner-dark.svg": banner("dark"),
     "banner-light.svg": banner("light"),
@@ -234,6 +259,8 @@ files = {
     "footer-wave.svg": footer(),
     "divider.svg": divider(),
 }
+files.update({f"icons/{name}.svg": icon(body) for name, body in ICONS.items()})
+(OUT / "icons").mkdir(exist_ok=True)
 for name, content in files.items():
     (OUT / name).write_text(content, encoding="utf-8")
     print(f"{name}: {len(content)} bytes")
