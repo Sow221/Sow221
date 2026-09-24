@@ -6,49 +6,45 @@
 </picture>
 </a>
 
+<br/>
+
 <div align="center">
 
-### Software engineering across applications, data and AI — from business workflows to production services.
+<h2>Software Engineering · Information Systems · Data · Applied AI</h2>
 
-<a href="https://portefolio-ms.vercel.app"><img src="https://img.shields.io/badge/Portfolio-0D1117?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a> <a href="https://www.linkedin.com/in/ms-officiel"><img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a> <a href="https://cif-credit-intelligence.onrender.com/docs"><img src="https://img.shields.io/badge/Live_API_docs-0D1117?style=for-the-badge&logo=fastapi&logoColor=009688" alt="Live API documentation"/></a>
+<p>
+Designing and building software systems that connect applications, data and intelligent services to real operational workflows.
+</p>
 
-<img src="https://img.shields.io/badge/Dakar%2C_Senegal-0D1117?style=flat-square&logo=googlemaps&logoColor=14B8A6" alt="Dakar, Senegal"/>
-<img src="https://img.shields.io/badge/open_to_opportunities-14B8A6?style=flat-square&labelColor=0D1117" alt="Open to opportunities"/>
+<br/>
+
+<a href="https://portefolio-ms.vercel.app">
+  <img src="https://img.shields.io/badge/Portfolio-0D1117?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/>
+</a>
+&nbsp;
+<a href="https://www.linkedin.com/in/ms-officiel">
+  <img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+</a>
+&nbsp;
+<a href="https://cif-credit-intelligence.onrender.com/docs">
+  <img src="https://img.shields.io/badge/Live_API-0D1117?style=for-the-badge&logo=fastapi&logoColor=009688" alt="Live API documentation"/>
+</a>
 
 </div>
 
 <br/>
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&height=220&section=header&text=Moussa%20SOW&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Software%20Engineering%20%7C%20Information%20Systems%20%7C%20Data%20%7C%20AI&descAlignY=58&descSize=18">
-    <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&height=220&section=header&text=Moussa%20SOW&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Software%20Engineering%20%7C%20Information%20Systems%20%7C%20Data%20%7C%20AI&descAlignY=58&descSize=18">
-    <img alt="Moussa SOW — Software Engineering, Information Systems, Data and AI" src="https://capsule-render.vercel.app/api?type=waving&height=220&section=header&text=Moussa%20SOW&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Software%20Engineering%20%7C%20Information%20Systems%20%7C%20Data%20%7C%20AI&descAlignY=58&descSize=18">
-  </picture>
-</p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&duration=2800&pause=900&center=true&vCenter=true&width=850&lines=Building+software+systems+that+connect+applications%2C+data+and+AI;Software+Engineering+%7C+Information+Systems;Data+%26+Machine+Learning+Systems;From+models+to+deployable+and+auditable+systems" alt="Animated introduction">
-</p>
-
-<p align="center">
-  <a href="https://github.com/Sow221/cif-credit-intelligencedescription">
-    <img src="https://img.shields.io/badge/CIF-Credit%20Engine-181717?style=for-the-badge&logo=github&logoColor=white" alt="CIF Credit Engine">
-  </a>
-  <a href="https://github.com/Sow221/cif-credit-intelligence">
-    <img src="https://img.shields.io/badge/CIF-Credit%20Platform-181717?style=for-the-badge&logo=github&logoColor=white" alt="CIF Credit Platform">
-  </a>
-</p>
-
 ---
 
 ## About
 
-I build software systems where **applications, data and machine learning meet real operational workflows**.
+I build **software systems where applications, data and machine learning meet real operational workflows**.
 
 My focus is the engineering around these systems: **architecture, APIs, data workflows, evaluation, deployment, monitoring and traceability**.
 
 My direction sits at the intersection of **software engineering, information systems, data and applied AI**.
+
+<br/>
 
 ---
 
@@ -56,35 +52,51 @@ My direction sits at the intersection of **software engineering, information sys
 
 <table>
 <tr>
-<td width="33%" align="center">
+<td width="33%" valign="top">
 
-### Building
+<h3 align="center">Building</h3>
 
-**CIF**
+<p align="center">
+<strong>CIF</strong>
+</p>
 
-Credit-risk engineering and decision-support systems moving toward real-data validation.
+<p align="center">
+Credit-risk engineering and decision-support systems, moving toward real-data validation.
+</p>
 
 </td>
-<td width="33%" align="center">
 
-### Deepening
+<td width="33%" valign="top">
 
-**Software Architecture**
+<h3 align="center">Deepening</h3>
 
+<p align="center">
+<strong>Software Architecture</strong>
+</p>
+
+<p align="center">
 Designing systems that remain maintainable, testable and deployable.
+</p>
 
 </td>
-<td width="33%" align="center">
 
-### Exploring
+<td width="33%" valign="top">
 
-**ML Engineering**
+<h3 align="center">Exploring</h3>
 
+<p align="center">
+<strong>ML Engineering</strong>
+</p>
+
+<p align="center">
 Moving from models and experiments toward reliable data and ML systems.
+</p>
 
 </td>
 </tr>
 </table>
+
+<br/>
 
 ---
 
@@ -92,55 +104,83 @@ Moving from models and experiments toward reliable data and ML systems.
 
 <table>
 <tr>
+
 <td width="50%" valign="top">
 
-### Software systems
+<h3>Software systems</h3>
 
+<p>
 Web applications and APIs designed around concrete workflows, with an emphasis on maintainability, integration and reliable services.
+</p>
 
-**Focus**
-
-`Architecture` · `APIs` · `Web` · `Integration`
+<p>
+<code>Architecture</code>&nbsp;&nbsp;
+<code>APIs</code>&nbsp;&nbsp;
+<code>Web</code>&nbsp;&nbsp;
+<code>Integration</code>
+</p>
 
 </td>
+
 <td width="50%" valign="top">
 
-### Data & ML systems
+<h3>Data & ML systems</h3>
 
+<p>
 Data workflows and machine learning systems covering preparation, modelling, evaluation, reproducibility and serving.
+</p>
 
-**Focus**
-
-`Data` · `ML` · `Evaluation` · `Serving`
+<p>
+<code>Data</code>&nbsp;&nbsp;
+<code>ML</code>&nbsp;&nbsp;
+<code>Evaluation</code>&nbsp;&nbsp;
+<code>Serving</code>
+</p>
 
 </td>
+
 </tr>
 
 <tr>
+
 <td width="50%" valign="top">
 
-### Decision-support systems
+<h3>Decision-support systems</h3>
 
+<p>
 Systems that turn predictive outputs into operational decisions through explicit policies, explanations, thresholds and human review.
+</p>
 
-**Focus**
-
-`Risk` · `Decisioning` · `Explainability` · `Governance`
+<p>
+<code>Risk</code>&nbsp;&nbsp;
+<code>Decisioning</code>&nbsp;&nbsp;
+<code>Explainability</code>&nbsp;&nbsp;
+<code>Governance</code>
+</p>
 
 </td>
+
 <td width="50%" valign="top">
 
-### Integrated services
+<h3>Integrated services</h3>
 
+<p>
 APIs, databases, authentication and supporting services connected into deployable software systems.
+</p>
 
-**Focus**
-
-`Backend` · `Databases` · `Security` · `Infrastructure`
+<p>
+<code>Backend</code>&nbsp;&nbsp;
+<code>Databases</code>&nbsp;&nbsp;
+<code>Security</code>&nbsp;&nbsp;
+<code>Infrastructure</code>
+</p>
 
 </td>
+
 </tr>
 </table>
+
+<br/>
 
 ---
 
@@ -148,81 +188,159 @@ APIs, databases, authentication and supporting services connected into deployabl
 
 ### CIF Credit Engine
 
+<table>
+<tr>
+<td width="78%" valign="top">
+
+<strong>Production-oriented credit-risk ML system</strong>
+
+<p>
+Reproducible workflows for data preparation, model evaluation, API serving and monitoring.
+</p>
+
+<p>
+<code>Temporal evaluation</code>&nbsp;&nbsp;
+<code>Calibration</code>&nbsp;&nbsp;
+<code>XGBoost</code>&nbsp;&nbsp;
+<code>FastAPI</code>&nbsp;&nbsp;
+<code>MLflow</code>&nbsp;&nbsp;
+<code>PostgreSQL</code>
+</p>
+
+</td>
+
+<td width="22%" align="right" valign="middle">
+
 <a href="https://github.com/Sow221/cif-credit-intelligencedescription">
-  <img align="right" width="120" src="https://img.shields.io/badge/VIEW-REPOSITORY-181717?style=for-the-badge&logo=github&logoColor=white" alt="View CIF Credit Engine repository">
+<img src="https://img.shields.io/badge/VIEW-REPOSITORY-181717?style=for-the-badge&logo=github&logoColor=white" alt="View CIF Credit Engine repository"/>
 </a>
 
-**Credit-risk ML infrastructure for reproducible workflows, model evaluation, API serving and monitoring.**
+</td>
+</tr>
+</table>
 
-* Reproducible data and modelling workflows
-* Temporal evaluation and calibration
-* XGBoost-based credit-risk modelling
-* FastAPI scoring service
-* MLflow experiment and model tracking
-* PostgreSQL audit records
-* Monitoring and CI-based quality checks
-
-<br clear="right"/>
-
----
+<br/>
 
 ### CIF Credit Platform
 
+<table>
+<tr>
+<td width="78%" valign="top">
+
+<strong>Decision-support application for credit-risk decisions</strong>
+
+<p>
+A system that turns risk scores into explainable and auditable lending decisions.
+</p>
+
+<p>
+<code>Decision engine</code>&nbsp;&nbsp;
+<code>SHAP</code>&nbsp;&nbsp;
+<code>Temporal validation</code>&nbsp;&nbsp;
+<code>Leakage controls</code>&nbsp;&nbsp;
+<code>Governance</code>
+</p>
+
+</td>
+
+<td width="22%" align="right" valign="middle">
+
 <a href="https://github.com/Sow221/cif-credit-intelligence">
-  <img align="right" width="120" src="https://img.shields.io/badge/VIEW-REPOSITORY-181717?style=for-the-badge&logo=github&logoColor=white" alt="View CIF Credit Platform repository">
+<img src="https://img.shields.io/badge/VIEW-REPOSITORY-181717?style=for-the-badge&logo=github&logoColor=white" alt="View CIF Credit Platform repository"/>
 </a>
 
-**Decision-support application for explainable and auditable credit-risk decisions.**
+</td>
+</tr>
+</table>
 
-* Risk scoring and decision engine
-* Approval, human review, adjustment and rejection workflows
-* Cost-aware decision thresholds
-* SHAP-based explanations
-* Temporal validation and leakage controls
-* Audit and governance mechanisms
-
-<br clear="right"/>
+<br/>
 
 ---
 
 ## Engineering stack
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,typescript,javascript,php,java,react,nextjs,fastapi,laravel,postgres,mysql,redis,docker,git,github,linux&perline=8" alt="Engineering technologies">
+### Languages & application engineering
+
+<p>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+&nbsp;
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
+&nbsp;
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript"/>
+&nbsp;
+<img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP"/>
+&nbsp;
+<img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java"/>
 </p>
 
-### Data & Machine Learning
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="Pandas">
-  <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy">
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" alt="scikit-learn">
-  <img src="https://img.shields.io/badge/XGBoost-189FDD?style=flat-square&logo=xgboost&logoColor=white" alt="XGBoost">
-  <img src="https://img.shields.io/badge/SHAP-000000?style=flat-square&logoColor=white" alt="SHAP">
-  <img src="https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white" alt="MLflow">
-  <img src="https://img.shields.io/badge/Dagster-000000?style=flat-square&logo=dagster&logoColor=white" alt="Dagster">
+<p>
+<img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React"/>
+&nbsp;
+<img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white" alt="Next.js"/>
+&nbsp;
+<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI"/>
+&nbsp;
+<img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white" alt="Laravel"/>
 </p>
 
-### Engineering & Infrastructure
+<br/>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker">
-  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white" alt="GitHub Actions">
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL">
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL">
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux">
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git">
+### Data & machine learning
+
+<p>
+<img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="Pandas"/>
+&nbsp;
+<img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy"/>
+&nbsp;
+<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" alt="scikit-learn"/>
+&nbsp;
+<img src="https://img.shields.io/badge/XGBoost-189FDD?style=flat-square&logo=xgboost&logoColor=white" alt="XGBoost"/>
 </p>
+
+<p>
+<img src="https://img.shields.io/badge/SHAP-181717?style=flat-square" alt="SHAP"/>
+&nbsp;
+<img src="https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white" alt="MLflow"/>
+&nbsp;
+<img src="https://img.shields.io/badge/Dagster-181717?style=flat-square&logo=dagster&logoColor=white" alt="Dagster"/>
+</p>
+
+<br/>
+
+### Databases, systems & infrastructure
+
+<p>
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
+&nbsp;
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL"/>
+&nbsp;
+<img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis"/>
+</p>
+
+<p>
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
+&nbsp;
+<img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white" alt="GitHub Actions"/>
+&nbsp;
+<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git"/>
+&nbsp;
+<img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux"/>
+</p>
+
+<br/>
 
 ### Exploring
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes">
-  <img src="https://img.shields.io/badge/Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white" alt="Terraform">
+<p>
+<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes"/>
+&nbsp;
+<img src="https://img.shields.io/badge/Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white" alt="Terraform"/>
 </p>
+
+<br/>
 
 ---
 
 <p align="center">
-  <sub>Software engineering first · Information systems · Data · Applied AI</sub>
+<sub>Software engineering first · Information systems · Data · Applied AI</sub>
 </p>
