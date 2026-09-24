@@ -9,6 +9,14 @@
 
 <div align="center">
 
+<h1>Software Engineering · Information Systems · Data &amp; AI</h1>
+
+<p>
+Software engineer building digital systems across applications, data and AI.
+</p>
+
+<br/>
+
 <a href="https://portefolio-ms.vercel.app"><img src="https://img.shields.io/badge/Portfolio-0D1117?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a> <a href="https://www.linkedin.com/in/ms-officiel"><img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2" alt="LinkedIn"/></a> <a href="https://cif-credit-intelligence.onrender.com/docs"><img src="https://img.shields.io/badge/Live_API_docs-0D1117?style=for-the-badge&logo=fastapi&logoColor=009688" alt="Live API docs"/></a>
 
 <br/><br/>
@@ -21,6 +29,8 @@
 <br/>
 
 ## 01 · Selected work
+
+I build software systems where **applications, data, machine learning and operational workflows** meet — with an emphasis on reproducibility, traceability and integration.
 
 <table>
 <tr>
@@ -38,10 +48,10 @@ Credit-risk engineering platform for microfinance — built as a **reproducible 
 
 * Data pipelines versioned with **DVC**, orchestrated with **Dagster**
 * **XGBoost** model tracked in **MLflow**, documented with model cards
-* Validated on **real Lending Club data**, with a **24-month** monitoring replay
+* Method validated on **public Lending Club data** with an **out-of-time evaluation protocol**
 * **FastAPI** serving: JWT, Redis rate limiting, PostgreSQL audit trail
 * Drift alerts with a from-scratch **PSI**, Evidently, Prometheus, Grafana
-* **125 tests** · CI builds and Trivy-scans the Docker image
+* **107 tests** · 74 % coverage · CI with linting, type checking and Docker image scanning
 
 <br/>
 
@@ -77,16 +87,16 @@ Turns risk scores into **explainable, auditable lending decisions** for credit o
 * Four-way **decision engine**: approve · human review · adjust · reject
 * **Cost-driven thresholds** balancing review capacity and error costs
 * Per-client **SHAP** explanations exposed through the API
-* **RBAC** with 5 roles, multi-tenant JWT, append-only audit log
-* Backend: **124 tests · 84 % coverage**, mypy strict
-* **React / TypeScript** UI: 26 Storybook stories, 6 Playwright e2e tests
+* **RBAC**, multi-tenant JWT and append-only audit trail
+* Temporal validation, anti-leakage controls and segmented evaluation
+* CI with **ruff, mypy, pytest and anti-leakage checks**
 
 <br/>
 
 <img src="https://img.shields.io/badge/React-0D1117?style=flat-square&logo=react&logoColor=61DAFB" alt="React"/>
 <img src="https://img.shields.io/badge/TypeScript-0D1117?style=flat-square&logo=typescript&logoColor=3178C6" alt="TypeScript"/>
 <img src="https://img.shields.io/badge/FastAPI-0D1117?style=flat-square&logo=fastapi&logoColor=009688" alt="FastAPI"/>
-<img src="https://img.shields.io/badge/SHAP-0D1117?style=flat-square&logoColor=white" alt="SHAP"/>
+<img src="https://img.shields.io/badge/SHAP-0D1117?style=flat-square&logoColor=FFFFFF" alt="SHAP"/>
 <img src="https://img.shields.io/badge/Playwright-0D1117?style=flat-square&logo=playwright&logoColor=45BA4B" alt="Playwright"/>
 <img src="https://img.shields.io/badge/Storybook-0D1117?style=flat-square&logo=storybook&logoColor=FF4785" alt="Storybook"/>
 
@@ -113,7 +123,7 @@ Turns risk scores into **explainable, auditable lending decisions** for credit o
 Laravel application digitising **tontines** (rotating savings groups) for the Senegalese market.
 
 * Contribution **cycles and draws**, member roles and administration
-* **Mobile-money** payments (PayTech, QR codes), receipts, outbound webhooks
+* **Mobile-money** payment integration, QR flows, receipts and outbound webhooks
 * **WhatsApp** notifications and member credit-scoring
 * PHPUnit feature tests, **PHPStan** static analysis, CI
 
@@ -126,7 +136,7 @@ Laravel application digitising **tontines** (rotating savings groups) for the Se
 
 <br/><br/>
 
-<sub>Code available on request.</sub>
+<sub>Private work · code available on request.</sub>
 
 </td>
 </tr>
@@ -143,7 +153,7 @@ Laravel application digitising **tontines** (rotating savings groups) for the Se
 
 ## 02 · Architecture
 
-How the two CIF repositories fit together:
+The two CIF repositories form one engineering chain:
 
 ```mermaid
 flowchart LR
@@ -153,7 +163,7 @@ flowchart LR
     M[XGBoost + MLflow registry]
     A[FastAPI scoring API]
     E[Decision engine]
-    U[React / TypeScript decision interface]
+    U[Decision interface]
     O[Evidently + Prometheus + Grafana]
 
     D --> P
@@ -191,6 +201,8 @@ flowchart LR
 <img src="assets/divider.svg" width="100%" height="12" alt=""/>
 
 ## 03 · Tech stack
+
+The stack below reflects technologies used across my public work and broader software engineering practice — not a list of every technology I have ever touched.
 
 <table>
 <tr>
@@ -256,6 +268,8 @@ flowchart LR
 
 ## 04 · Information systems
 
+My work focuses not only on individual applications or models, but on how **people, data, workflows and software systems interact**.
+
 <table cellpadding="12">
 <tr>
 <td width="7%" align="center" valign="middle">
@@ -294,7 +308,35 @@ flowchart LR
 
 <img src="assets/divider.svg" width="100%" height="12" alt=""/>
 
-## 05 · Currently
+## 05 · Engineering interests
+
+<table>
+<tr>
+<td width="25%" valign="top"><strong>Software architecture</strong></td>
+<td valign="top">Designing maintainable systems across applications, APIs, data and infrastructure</td>
+</tr>
+
+<tr>
+<td valign="top"><strong>ML engineering</strong></td>
+<td valign="top">Reproducible pipelines, evaluation, serving, monitoring and model governance</td>
+</tr>
+
+<tr>
+<td valign="top"><strong>Information systems</strong></td>
+<td valign="top">Workflow modelling, integration, traceability, access control and digital transformation</td>
+</tr>
+
+<tr>
+<td valign="top"><strong>Applied AI</strong></td>
+<td valign="top">Using machine learning and AI where they create measurable value inside real software systems</td>
+</tr>
+</table>
+
+<br/>
+
+<img src="assets/divider.svg" width="100%" height="12" alt=""/>
+
+## 06 · Currently
 
 <table>
 <tr>
