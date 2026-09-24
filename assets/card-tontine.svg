@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img" aria-labelledby="t d">
+<title id="t">tontinesn</title><desc id="d">Illustration: members of a tontine in a contribution cycle, with the payout rotating between them.</desc>
+<defs>
+  <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#14B8A6"/><stop offset="1" stop-color="#6366F1"/>
+  </linearGradient>
+  <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+    <path d="M24 0H0V24" fill="none" stroke="#FFFFFF" stroke-opacity=".04"/>
+  </pattern>
+</defs>
+<style>
+  .lbl { font: 600 13px 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; fill: #8B949E; }
+  .txt { font: 600 14px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #F0F6FC; }
+  .sm { font: 500 12px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #8B949E; }
+  .spin { animation: turn 8s steps(8) infinite; }@keyframes turn { to { transform: rotate(360deg); } }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; opacity: 1 !important; } }
+</style>
+<rect width="480" height="300" rx="16" fill="#0D1117"/>
+<rect width="480" height="300" rx="16" fill="url(#grid)"/>
+<rect x=".75" y=".75" width="478.5" height="298.5" rx="15.5" fill="none" stroke="#30363D" stroke-width="1.5"/>
+<circle cx="24" cy="24" r="5" fill="#FF5F57"/><circle cx="42" cy="24" r="5" fill="#FEBC2E"/><circle cx="60" cy="24" r="5" fill="#28C840"/>
+<text x="80" y="28" class="lbl">tontinesn</text>
+<circle cx="240" cy="165" r="92" fill="none" stroke="#30363D" stroke-width="2" stroke-dasharray="6 6"/><circle cx="240.0" cy="73.0" r="15" fill="#161B22" stroke="#14B8A6" stroke-width="2"/><text x="240.0" y="77.0" text-anchor="middle" class="sm" style="fill:#F0F6FC">1</text><circle cx="305.1" cy="99.9" r="15" fill="#161B22" stroke="#14B8A6" stroke-width="2"/><text x="305.1" y="103.9" text-anchor="middle" class="sm" style="fill:#F0F6FC">2</text><circle cx="332.0" cy="165.0" r="15" fill="#161B22" stroke="#14B8A6" stroke-width="2"/><text x="332.0" y="169.0" text-anchor="middle" class="sm" style="fill:#F0F6FC">3</text><circle cx="305.1" cy="230.1" r="15" fill="#161B22" stroke="#14B8A6" stroke-width="2"/><text x="305.1" y="234.1" text-anchor="middle" class="sm" style="fill:#F0F6FC">4</text><circle cx="240.0" cy="257.0" r="15" fill="#161B22" stroke="#14B8A6" stroke-width="2"/><text x="240.0" y="261.0" text-anchor="middle" class="sm" style="fill:#F0F6FC">5</text><circle cx="174.9" cy="230.1" r="15" fill="#161B22" stroke="#14B8A6" stroke-width="2"/><text x="174.9" y="234.1" text-anchor="middle" class="sm" style="fill:#F0F6FC">6</text><circle cx="148.0" cy="165.0" r="15" fill="#161B22" stroke="#14B8A6" stroke-width="2"/><text x="148.0" y="169.0" text-anchor="middle" class="sm" style="fill:#F0F6FC">7</text><circle cx="174.9" cy="99.9" r="15" fill="#161B22" stroke="#14B8A6" stroke-width="2"/><text x="174.9" y="103.9" text-anchor="middle" class="sm" style="fill:#F0F6FC">8</text><g class="spin" style="transform-origin:240px 165px"><circle cx="240" cy="73" r="21" fill="none" stroke="#6366F1" stroke-width="3"/></g><text x="240" y="161" text-anchor="middle" class="txt" style="font-size:16px">Cycle</text><text x="240" y="181" text-anchor="middle" class="sm">draw · payout</text>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img" aria-labelledby="t d">
+<title id="t">cif-credit-platform</title><desc id="d">Illustration: SHAP contributions explaining a credit score and the four decision outcomes.</desc>
+<defs>
+  <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#14B8A6"/><stop offset="1" stop-color="#6366F1"/>
+  </linearGradient>
+  <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+    <path d="M24 0H0V24" fill="none" stroke="#FFFFFF" stroke-opacity=".04"/>
+  </pattern>
+</defs>
+<style>
+  .lbl { font: 600 13px 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; fill: #8B949E; }
+  .txt { font: 600 14px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #F0F6FC; }
+  .sm { font: 500 12px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #8B949E; }
+  .bar { animation: grow .9s cubic-bezier(.2,.8,.2,1) backwards; }@keyframes grow { from { transform: scaleX(0); } }.pick { animation: ring 2s ease-in-out infinite; }@keyframes ring { 50% { stroke: #14B8A6; } }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; opacity: 1 !important; } }
+</style>
+<rect width="480" height="300" rx="16" fill="#0D1117"/>
+<rect width="480" height="300" rx="16" fill="url(#grid)"/>
+<rect x=".75" y=".75" width="478.5" height="298.5" rx="15.5" fill="none" stroke="#30363D" stroke-width="1.5"/>
+<circle cx="24" cy="24" r="5" fill="#FF5F57"/><circle cx="42" cy="24" r="5" fill="#FEBC2E"/><circle cx="60" cy="24" r="5" fill="#28C840"/>
+<text x="80" y="28" class="lbl">cif-credit-platform</text>
+<text x="28" y="66" class="lbl">SHAP · feature contributions</text><line x1="250" y1="80" x2="250" y2="210" stroke="#30363D"/><text x="28" y="97" class="sm">repayment_history</text><rect x="133" y="84" width="117" height="16" rx="4" fill="#14B8A6" class="bar" style="transform-origin:250px 92px;animation-delay:0.00s"/><text x="28" y="123" class="sm">savings_balance</text><rect x="168" y="110" width="82" height="16" rx="4" fill="#14B8A6" class="bar" style="transform-origin:250px 118px;animation-delay:0.15s"/><text x="28" y="149" class="sm">loan_amount</text><rect x="250" y="136" width="69" height="16" rx="4" fill="#F85149" class="bar" style="transform-origin:250px 144px;animation-delay:0.30s"/><text x="28" y="175" class="sm">thin_file</text><rect x="250" y="162" width="51" height="16" rx="4" fill="#F85149" class="bar" style="transform-origin:250px 170px;animation-delay:0.45s"/><text x="28" y="201" class="sm">tenure_months</text><rect x="217" y="188" width="33" height="16" rx="4" fill="#14B8A6" class="bar" style="transform-origin:250px 196px;animation-delay:0.60s"/><rect x="28" y="238" width="69" height="32" rx="16" fill="#161B22" stroke="#30363D" stroke-width="1.5"/><text x="63" y="259" text-anchor="middle" class="txt" style="font-size:13px">Approve</text><rect x="107" y="238" width="107" height="32" rx="16" fill="#1F2150" stroke="#6366F1" stroke-width="1.5" class="pick"/><text x="161" y="259" text-anchor="middle" class="txt" style="font-size:13px">Human review</text><rect x="224" y="238" width="62" height="32" rx="16" fill="#161B22" stroke="#30363D" stroke-width="1.5"/><text x="255" y="259" text-anchor="middle" class="txt" style="font-size:13px">Adjust</text><rect x="296" y="238" width="62" height="32" rx="16" fill="#161B22" stroke="#30363D" stroke-width="1.5"/><text x="327" y="259" text-anchor="middle" class="txt" style="font-size:13px">Reject</text>
+</svg>

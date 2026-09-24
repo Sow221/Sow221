@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+<title id="title">Moussa Sow</title>
+<desc id="desc">Software Engineering, Information Systems, Data and AI</desc>
+<defs>
+  <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#14B8A6"/><stop offset="1" stop-color="#6366F1"/>
+  </linearGradient>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+    <path d="M32 0H0V32" fill="none" stroke="#FFFFFF" stroke-opacity="0.05"/>
+  </pattern>
+  <radialGradient id="glowT"><stop offset="0" stop-color="#14B8A6" stop-opacity=".35"/><stop offset="1" stop-color="#14B8A6" stop-opacity="0"/></radialGradient>
+  <radialGradient id="glowI"><stop offset="0" stop-color="#6366F1" stop-opacity=".35"/><stop offset="1" stop-color="#6366F1" stop-opacity="0"/></radialGradient>
+</defs>
+<style>
+  .edge { stroke: #8B949E; stroke-opacity: .25; stroke-width: 1.5; }
+  .pulse { stroke: url(#g); stroke-width: 2.5; stroke-linecap: round; stroke-dasharray: 18 1000;
+           stroke-dashoffset: 18; animation: flow 4s linear infinite; }
+  @keyframes flow { from { stroke-dashoffset: 18; } to { stroke-dashoffset: -260; } }
+  .core { animation: beat 2.4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+  @keyframes beat { 0%,100% { opacity: .45; } 50% { opacity: 1; } }
+  .glow { animation: drift 12s ease-in-out infinite alternate; }
+  @keyframes drift { to { transform: translate(60px, 20px); } }
+  .prompt { font: 500 20px 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; fill: #14B8A6; }
+  .caret { fill: #14B8A6; animation: blink 1s steps(1) infinite; }
+  @keyframes blink { 50% { opacity: 0; } }
+  .name { font: 800 76px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #F0F6FC; letter-spacing: -1.5px; }
+  .dom { font: 700 27px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: url(#g); animation: rise 1.2s ease-out .3s backwards; }
+  .sep { fill: #8B949E; }
+  @keyframes rise { from { opacity: 0; transform: translateY(10px); } }
+  .tag { font: 400 19px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #8B949E; }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; opacity: 1 !important; } }
+</style>
+<rect width="1200" height="340" rx="20" fill="#0D1117"/>
+<rect width="1200" height="340" rx="20" fill="url(#grid)"/>
+<circle class="glow" cx="980" cy="120" r="260" fill="url(#glowI)"/>
+<circle class="glow" cx="760" cy="300" r="220" fill="url(#glowT)" style="animation-delay:-6s"/>
+<text x="64" y="92" class="prompt">~/sow221 $ whoami</text>
+<rect x="276" y="75" width="11" height="21" class="caret"/>
+<text x="60" y="176" class="name">Moussa Sow</text>
+<text x="64" y="226" class="dom">Software Engineering<tspan class="sep"> · </tspan>Information Systems<tspan class="sep"> · </tspan>Data &amp; AI</text>
+<text x="64" y="274" class="tag">Maintainable, testable, deployable systems — extended with ML where it creates value.</text>
+<rect x="64" y="300" width="120" height="4" rx="2" fill="url(#g)"/>
+<line x1="900" y1="100" x2="1015" y2="70" class="edge"/><line x1="900" y1="100" x2="1015" y2="70" class="pulse" style="animation-delay:0.00s"/><line x1="900" y1="100" x2="1015" y2="145" class="edge"/><line x1="900" y1="100" x2="1015" y2="145" class="pulse" style="animation-delay:0.37s"/><line x1="900" y1="175" x2="1015" y2="145" class="edge"/><line x1="900" y1="175" x2="1015" y2="145" class="pulse" style="animation-delay:0.74s"/><line x1="900" y1="175" x2="1015" y2="215" class="edge"/><line x1="900" y1="175" x2="1015" y2="215" class="pulse" style="animation-delay:1.11s"/><line x1="900" y1="250" x2="1015" y2="215" class="edge"/><line x1="900" y1="250" x2="1015" y2="215" class="pulse" style="animation-delay:1.48s"/><line x1="900" y1="250" x2="1015" y2="285" class="edge"/><line x1="900" y1="250" x2="1015" y2="285" class="pulse" style="animation-delay:1.85s"/><line x1="900" y1="100" x2="1015" y2="215" class="edge"/><line x1="900" y1="100" x2="1015" y2="215" class="pulse" style="animation-delay:2.22s"/><line x1="900" y1="175" x2="1015" y2="70" class="edge"/><line x1="900" y1="175" x2="1015" y2="70" class="pulse" style="animation-delay:2.59s"/><line x1="900" y1="250" x2="1015" y2="145" class="edge"/><line x1="900" y1="250" x2="1015" y2="145" class="pulse" style="animation-delay:2.96s"/><line x1="1015" y1="70" x2="1130" y2="130" class="edge"/><line x1="1015" y1="70" x2="1130" y2="130" class="pulse" style="animation-delay:3.33s"/><line x1="1015" y1="145" x2="1130" y2="130" class="edge"/><line x1="1015" y1="145" x2="1130" y2="130" class="pulse" style="animation-delay:3.70s"/><line x1="1015" y1="145" x2="1130" y2="220" class="edge"/><line x1="1015" y1="145" x2="1130" y2="220" class="pulse" style="animation-delay:0.07s"/><line x1="1015" y1="215" x2="1130" y2="220" class="edge"/><line x1="1015" y1="215" x2="1130" y2="220" class="pulse" style="animation-delay:0.44s"/><line x1="1015" y1="285" x2="1130" y2="220" class="edge"/><line x1="1015" y1="285" x2="1130" y2="220" class="pulse" style="animation-delay:0.81s"/><line x1="1015" y1="215" x2="1130" y2="130" class="edge"/><line x1="1015" y1="215" x2="1130" y2="130" class="pulse" style="animation-delay:1.18s"/>
+<circle cx="900" cy="100" r="11" fill="#161B22" stroke="#14B8A6" stroke-width="2.5"/><circle cx="900" cy="100" r="4" fill="#14B8A6" class="core" style="animation-delay:0.0s"/><circle cx="900" cy="175" r="11" fill="#161B22" stroke="#14B8A6" stroke-width="2.5"/><circle cx="900" cy="175" r="4" fill="#14B8A6" class="core" style="animation-delay:0.3s"/><circle cx="900" cy="250" r="11" fill="#161B22" stroke="#14B8A6" stroke-width="2.5"/><circle cx="900" cy="250" r="4" fill="#14B8A6" class="core" style="animation-delay:0.6s"/><circle cx="1015" cy="70" r="11" fill="#161B22" stroke="url(#g)" stroke-width="2.5"/><circle cx="1015" cy="70" r="4" fill="url(#g)" class="core" style="animation-delay:0.9s"/><circle cx="1015" cy="145" r="11" fill="#161B22" stroke="url(#g)" stroke-width="2.5"/><circle cx="1015" cy="145" r="4" fill="url(#g)" class="core" style="animation-delay:1.2s"/><circle cx="1015" cy="215" r="11" fill="#161B22" stroke="url(#g)" stroke-width="2.5"/><circle cx="1015" cy="215" r="4" fill="url(#g)" class="core" style="animation-delay:1.5s"/><circle cx="1015" cy="285" r="11" fill="#161B22" stroke="url(#g)" stroke-width="2.5"/><circle cx="1015" cy="285" r="4" fill="url(#g)" class="core" style="animation-delay:1.8s"/><circle cx="1130" cy="130" r="11" fill="#161B22" stroke="#6366F1" stroke-width="2.5"/><circle cx="1130" cy="130" r="4" fill="#6366F1" class="core" style="animation-delay:2.1s"/><circle cx="1130" cy="220" r="11" fill="#161B22" stroke="#6366F1" stroke-width="2.5"/><circle cx="1130" cy="220" r="4" fill="#6366F1" class="core" style="animation-delay:2.4s"/>
+</svg>
