@@ -1,339 +1,178 @@
 <a href="https://portefolio-ms.vercel.app">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg"/>
-  <img src="assets/banner-light.svg" alt="Moussa Sow — Software Engineering · Information Systems · Data &amp; AI" width="100%"/>
-</picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sow221/Sow221/main/assets/banner-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Sow221/Sow221/main/assets/banner-light.svg">
+    <img alt="Sow221 — Software Engineering · Information Systems · Data & AI" src="https://raw.githubusercontent.com/Sow221/Sow221/main/assets/banner-light.svg">
+  </picture>
 </a>
 
-<br/>
+<p align="center">
+  <a href="https://portefolio-ms.vercel.app">
+    <img src="https://img.shields.io/badge/Portfolio-111111?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/>
+  </a>
+  <a href="https://www.linkedin.com/in/ms-officiel/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="https://cif-credit-intelligence.onrender.com/docs">
+    <img src="https://img.shields.io/badge/Live_API-111111?style=for-the-badge&logo=swagger&logoColor=white" alt="Live API documentation"/>
+  </a>
+</p>
 
-<div align="center">
+<p align="center">
+  <img src="https://img.shields.io/badge/Software_Engineering-111111?style=flat-square" alt="Software Engineering"/>
+  <img src="https://img.shields.io/badge/Information_Systems-111111?style=flat-square" alt="Information Systems"/>
+  <img src="https://img.shields.io/badge/Data_%26_AI-111111?style=flat-square" alt="Data and AI"/>
+  <img src="https://img.shields.io/badge/Dakar%2C_Senegal-111111?style=flat-square" alt="Dakar, Senegal"/>
+</p>
 
-<a href="https://portefolio-ms.vercel.app"><img src="https://img.shields.io/badge/Portfolio-0D1117?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a> <a href="https://www.linkedin.com/in/ms-officiel"><img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2" alt="LinkedIn"/></a> <a href="https://cif-credit-intelligence.onrender.com/docs"><img src="https://img.shields.io/badge/Live_API_docs-0D1117?style=for-the-badge&logo=fastapi&logoColor=009688" alt="Live API docs"/></a>
+Software engineer building digital systems across applications, data and AI.
 
-<br/><br/>
-
-<img src="https://img.shields.io/badge/Software_Engineering-0D1117?style=flat-square&logo=github&logoColor=white" alt="Software Engineering"/>
-<img src="https://img.shields.io/badge/Dakar%2C_Senegal-0D1117?style=flat-square&logo=googlemaps&logoColor=4285F4" alt="Dakar, Senegal"/>
-
-</div>
-
-<br/>
+---
 
 ## 01 · Selected work
 
-<table>
-<tr>
-<td width="42%" valign="top">
-<img src="assets/card-engine.svg" alt="CIF Credit Engine" width="96%"/>
-</td>
-<td width="4%"></td>
-<td width="54%" valign="top">
+### CIF Credit Engine
 
-### [CIF Credit Engine](https://github.com/Sow221/cif-credit-intelligencedescription)
+**Credit-risk engineering platform · Open source**
 
-<samp>credit-risk ML system · open source</samp>
+A credit-risk engineering system for microfinance, built as a **reproducible ML system rather than a notebook**.
 
-Credit-risk engineering platform for microfinance — built as a **reproducible ML system**, not a notebook.
+| Area                                                                                                                           | Implementation                                                                       |
+| ------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ |
+| <img src="https://raw.githubusercontent.com/primer/octicons/main/icons/git-branch-16.svg" width="16" alt=""/> Data & pipelines | DVC + Dagster                                                                        |
+| <img src="https://raw.githubusercontent.com/primer/octicons/main/icons/graph-16.svg" width="16" alt=""/> ML                    | XGBoost + MLflow + model tracking                                                    |
+| <img src="https://raw.githubusercontent.com/primer/octicons/main/icons/database-16.svg" width="16" alt=""/> Validation         | Method validated on public Lending Club data with an out-of-time evaluation protocol |
+| <img src="https://raw.githubusercontent.com/primer/octicons/main/icons/shield-check-16.svg" width="16" alt=""/> API & security | FastAPI + JWT authentication + rate limiting                                         |
+| <img src="https://raw.githubusercontent.com/primer/octicons/main/icons/database-16.svg" width="16" alt=""/> Persistence        | PostgreSQL + audit logging                                                           |
+| <img src="https://raw.githubusercontent.com/primer/octicons/main/icons/graph-16.svg" width="16" alt=""/> Monitoring            | PSI + Evidently + Prometheus + Grafana                                               |
+| <img src="https://raw.githubusercontent.com/primer/octicons/main/icons/check-circle-16.svg" width="16" alt=""/> Quality        | 107 automated tests · CI                                                             |
 
-* Data pipelines versioned with **DVC**, orchestrated with **Dagster**
-* **XGBoost** model tracked in **MLflow**, documented with model cards
-* Validated on **real Lending Club data**, with a **24-month** monitoring replay
-* **FastAPI** serving: JWT, Redis rate limiting, PostgreSQL audit trail
-* Drift alerts with a from-scratch **PSI**, Evidently, Prometheus, Grafana
-* **125 tests** · CI builds and Trivy-scans the Docker image
+The current deployment uses a lightweight Render setup; Kubernetes/K3s and Terraform are documented as the scale-up path.
 
-<br/>
+[Repository](https://github.com/Sow221/cif-credit-intelligencedescription) · [Live API](https://cif-credit-intelligence.onrender.com/docs)
 
-<img src="https://img.shields.io/badge/Python-0D1117?style=flat-square&logo=python&logoColor=3776AB" alt="Python"/>
-<img src="https://img.shields.io/badge/XGBoost-0D1117?style=flat-square&logo=xgboost&logoColor=4285F4" alt="XGBoost"/>
-<img src="https://img.shields.io/badge/FastAPI-0D1117?style=flat-square&logo=fastapi&logoColor=009688" alt="FastAPI"/>
-<img src="https://img.shields.io/badge/MLflow-0D1117?style=flat-square&logo=mlflow&logoColor=0194E2" alt="MLflow"/>
-<img src="https://img.shields.io/badge/DVC-0D1117?style=flat-square&logo=dvc&logoColor=13ADC7" alt="DVC"/>
-<img src="https://img.shields.io/badge/Dagster-0D1117?style=flat-square&logo=dagster&logoColor=00AEEF" alt="Dagster"/>
+> The live API runs on a free tier; the first request may take a moment to wake the service.
 
-<br/><br/>
+---
 
-<a href="https://github.com/Sow221/cif-credit-intelligencedescription"><img src="https://img.shields.io/badge/Code_%E2%86%92-0D1117?style=for-the-badge&logo=github&logoColor=white" alt="Code"/></a> <a href="https://cif-credit-intelligence.onrender.com/docs"><img src="https://img.shields.io/badge/Live_API_docs_%E2%86%92-0D1117?style=for-the-badge&logo=fastapi&logoColor=009688" alt="Live API docs"/></a>
+### CIF Credit Platform
 
-</td>
-</tr>
+**Decision-support application**
 
-<tr><td colspan="3"><br/></td></tr>
+An application layer for explainable and auditable lending decisions.
 
-<tr>
-<td width="42%" valign="top">
-<img src="assets/card-platform.svg" alt="CIF Credit Platform" width="96%"/>
-</td>
-<td width="4%"></td>
-<td width="54%" valign="top">
+| Area                                                                                                                          | Implementation                                                                            |
+| ----------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| <img src="https://raw.githubusercontent.com/primer/octicons/main/icons/git-branch-16.svg" width="16" alt=""/> Decision engine | Four-way decision workflow: approval, human review, adjustment, refusal                   |
+| <img src="https://raw.githubusercontent.com/primer/octicons/main/icons/cpu-16.svg" width="16" alt=""/> Risk modelling         | XGBoost probability of default + isotonic calibration                                     |
+| <img src="https://raw.githubusercontent.com/primer/octicons/main/icons/search-16.svg" width="16" alt=""/> Explainability      | SHAP local and global explanations                                                        |
+| <img src="https://raw.githubusercontent.com/primer/octicons/main/icons/cash-16.svg" width="16" alt=""/> Decision policy       | Cost-driven thresholds and human-review capacity                                          |
+| <img src="https://raw.githubusercontent.com/primer/octicons/main/icons/shield-check-16.svg" width="16" alt=""/> Governance    | Temporal validation, bootstrap confidence intervals, segment analysis and fairness checks |
+| <img src="https://raw.githubusercontent.com/primer/octicons/main/icons/database-16.svg" width="16" alt=""/> Traceability      | Model registry, experiment journal and audit-oriented architecture                        |
+| <img src="https://raw.githubusercontent.com/primer/octicons/main/icons/git-branch-16.svg" width="16" alt=""/> Reproducibility | DVC pipeline + automated tests + documented validation protocol                           |
 
-### [CIF Credit Platform](https://github.com/Sow221/cif-credit-intelligence)
+The reported performance figures are experimental results on synthetic data; they are **not presented as CIF production performance**.
 
-<samp>decision-support application</samp>
+[Repository](https://github.com/Sow221/cif-credit-intelligence)
 
-Turns risk scores into **explainable, auditable lending decisions** for credit officers.
-
-* Four-way **decision engine**: approve · human review · adjust · reject
-* **Cost-driven thresholds** balancing review capacity and error costs
-* Per-client **SHAP** explanations exposed through the API
-* **RBAC** with 5 roles, multi-tenant JWT, append-only audit log
-* Backend: **124 tests · 84 % coverage**, mypy strict
-* **React / TypeScript** UI: 26 Storybook stories, 6 Playwright e2e tests
-
-<br/>
-
-<img src="https://img.shields.io/badge/React-0D1117?style=flat-square&logo=react&logoColor=61DAFB" alt="React"/>
-<img src="https://img.shields.io/badge/TypeScript-0D1117?style=flat-square&logo=typescript&logoColor=3178C6" alt="TypeScript"/>
-<img src="https://img.shields.io/badge/FastAPI-0D1117?style=flat-square&logo=fastapi&logoColor=009688" alt="FastAPI"/>
-<img src="https://img.shields.io/badge/SHAP-0D1117?style=flat-square&logoColor=white" alt="SHAP"/>
-<img src="https://img.shields.io/badge/Playwright-0D1117?style=flat-square&logo=playwright&logoColor=45BA4B" alt="Playwright"/>
-<img src="https://img.shields.io/badge/Storybook-0D1117?style=flat-square&logo=storybook&logoColor=FF4785" alt="Storybook"/>
-
-<br/><br/>
-
-<a href="https://github.com/Sow221/cif-credit-intelligence"><img src="https://img.shields.io/badge/Code_%E2%86%92-0D1117?style=for-the-badge&logo=github&logoColor=white" alt="Code"/></a>
-
-</td>
-</tr>
-
-<tr><td colspan="3"><br/></td></tr>
-
-<tr>
-<td width="42%" valign="top">
-<img src="assets/card-tontine.svg" alt="TontineSN" width="96%"/>
-</td>
-<td width="4%"></td>
-<td width="54%" valign="top">
+---
 
 ### TontineSN
 
-<samp>fintech web application · private repository</samp>
+**Private · Fintech application for Senegal**
 
-Laravel application digitising **tontines** (rotating savings groups) for the Senegalese market.
+A Laravel-based application designed around tontine operations and mobile-money workflows.
 
-* Contribution **cycles and draws**, member roles and administration
-* **Mobile-money** payments (PayTech, QR codes), receipts, outbound webhooks
-* **WhatsApp** notifications and member credit-scoring
-* PHPUnit feature tests, **PHPStan** static analysis, CI
+| Area                                                                                                                            | Implementation                                  |
+| ------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------- |
+| <img src="https://raw.githubusercontent.com/primer/octicons/main/icons/workflow-16.svg" width="16" alt=""/> Operations          | Cycles, draws and member roles                  |
+| <img src="https://raw.githubusercontent.com/primer/octicons/main/icons/cash-16.svg" width="16" alt=""/> Payments                | Mobile-money payment workflows, QR and webhooks |
+| <img src="https://raw.githubusercontent.com/primer/octicons/main/icons/comment-discussion-16.svg" width="16" alt=""/> Messaging | WhatsApp notification workflows                 |
+| <img src="https://raw.githubusercontent.com/primer/octicons/main/icons/graph-16.svg" width="16" alt=""/> Data                   | Financial and credit-oriented data processing   |
+| <img src="https://raw.githubusercontent.com/primer/octicons/main/icons/check-circle-16.svg" width="16" alt=""/> Engineering     | PHPUnit · PHPStan · CI                          |
 
-<br/>
+**Private repository — code available on request.**
 
-<img src="https://img.shields.io/badge/PHP-0D1117?style=flat-square&logo=php&logoColor=777BB4" alt="PHP"/>
-<img src="https://img.shields.io/badge/Laravel-0D1117?style=flat-square&logo=laravel&logoColor=FF2D20" alt="Laravel"/>
-<img src="https://img.shields.io/badge/MySQL-0D1117?style=flat-square&logo=mysql&logoColor=4479A1" alt="MySQL"/>
-<img src="https://img.shields.io/badge/PHPUnit-0D1117?style=flat-square&logo=phpunit&logoColor=4C9A2A" alt="PHPUnit"/>
+---
 
-<br/><br/>
-
-<sub>Code available on request.</sub>
-
-</td>
-</tr>
-</table>
-
-<br/>
-
-> [!NOTE]
-> The live API runs on a free tier — the first request may take about a minute to wake it up.
-
-<br/>
-
-<img src="assets/divider.svg" width="100%" height="12" alt=""/>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Sow221/Sow221/main/assets/divider.svg" width="100%" alt=""/>
+</p>
 
 ## 02 · Architecture
 
-How the two CIF repositories fit together:
-
 ```mermaid
 flowchart LR
+    A[Credit data] --> B[DVC + Dagster]
+    B --> C[XGBoost + MLflow]
+    C --> D[FastAPI scoring API]
+    D --> E[Decision engine]
+    E --> F[React / TypeScript interface]
 
-    D[Credit data]
-    P[DVC + Dagster pipelines]
-    M[XGBoost + MLflow registry]
-    A[FastAPI scoring API]
-    E[Decision engine]
-    U[React / TypeScript decision interface]
-    O[Evidently + Prometheus + Grafana]
+    D --> G[Monitoring]
+    G --> H[Evidently]
+    G --> I[Prometheus]
+    G --> J[Grafana]
 
-    D --> P
-    P --> M
-    M --> A
-    A --> E
-    E --> U
-    A -.-> O
-
-    subgraph ENGINE["CIF Credit Engine"]
-        P
-        M
-        A
+    subgraph CIF_ENGINE["CIF Credit Engine"]
+        B
+        C
+        D
+        G
     end
 
-    subgraph PLATFORM["CIF Credit Platform"]
+    subgraph CIF_PLATFORM["CIF Credit Platform"]
         E
-        U
+        F
     end
-
-    classDef data fill:#0F766E,stroke:#14B8A6,color:#FFFFFF
-    classDef ml fill:#4338CA,stroke:#818CF8,color:#FFFFFF
-    classDef app fill:#1E293B,stroke:#64748B,color:#FFFFFF
-
-    class D,P data
-    class M ml
-    class A,E,U,O app
-
-    style ENGINE fill:transparent,stroke:#14B8A6,stroke-dasharray:5 5
-    style PLATFORM fill:transparent,stroke:#6366F1,stroke-dasharray:5 5
 ```
 
-<br/>
-
-<img src="assets/divider.svg" width="100%" height="12" alt=""/>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Sow221/Sow221/main/assets/divider.svg" width="100%" alt=""/>
+</p>
 
 ## 03 · Tech stack
 
-<table>
-<tr>
-<td width="22%" valign="top"><strong>Languages</strong></td>
-<td valign="top">
-<img src="https://img.shields.io/badge/Python-0D1117?style=flat-square&logo=python&logoColor=3776AB" alt="Python"/>
-<img src="https://img.shields.io/badge/TypeScript-0D1117?style=flat-square&logo=typescript&logoColor=3178C6" alt="TypeScript"/>
-<img src="https://img.shields.io/badge/JavaScript-0D1117?style=flat-square&logo=javascript&logoColor=F7DF1E" alt="JavaScript"/>
-<img src="https://img.shields.io/badge/PHP-0D1117?style=flat-square&logo=php&logoColor=777BB4" alt="PHP"/>
-<img src="https://img.shields.io/badge/Java-0D1117?style=flat-square&logo=openjdk&logoColor=FFFFFF" alt="Java"/>
-</td>
-</tr>
+| Layer              | Technologies                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Languages          | <img src="https://cdn.simpleicons.org/python" width="18" alt="Python"/> Python · <img src="https://cdn.simpleicons.org/typescript" width="18" alt="TypeScript"/> TypeScript · <img src="https://cdn.simpleicons.org/javascript" width="18" alt="JavaScript"/> JavaScript · <img src="https://cdn.simpleicons.org/php" width="18" alt="PHP"/> PHP · <img src="https://cdn.simpleicons.org/openjdk" width="18" alt="Java"/> Java                                                                                                                                  |
+| Backend / frontend | <img src="https://cdn.simpleicons.org/fastapi" width="18" alt="FastAPI"/> FastAPI · <img src="https://cdn.simpleicons.org/laravel" width="18" alt="Laravel"/> Laravel · <img src="https://cdn.simpleicons.org/react" width="18" alt="React"/> React · <img src="https://cdn.simpleicons.org/nextdotjs" width="18" alt="Next.js"/> Next.js · <img src="https://cdn.simpleicons.org/vite" width="18" alt="Vite"/> Vite · <img src="https://cdn.simpleicons.org/tailwindcss" width="18" alt="Tailwind CSS"/> Tailwind                                              |
+| Data / ML          | <img src="https://cdn.simpleicons.org/scikitlearn" width="18" alt="scikit-learn"/> scikit-learn · <img src="https://cdn.simpleicons.org/tensorflow" width="18" alt="TensorFlow"/> TensorFlow · <img src="https://cdn.simpleicons.org/postgresql" width="18" alt="PostgreSQL"/> PostgreSQL · <img src="https://cdn.simpleicons.org/mysql" width="18" alt="MySQL"/> MySQL · <img src="https://cdn.simpleicons.org/redis" width="18" alt="Redis"/> Redis · pandas · NumPy · XGBoost · SHAP                                                                         |
+| MLOps / DevOps     | <img src="https://cdn.simpleicons.org/docker" width="18" alt="Docker"/> Docker · <img src="https://cdn.simpleicons.org/githubactions" width="18" alt="GitHub Actions"/> GitHub Actions · <img src="https://cdn.simpleicons.org/git" width="18" alt="Git"/> Git · <img src="https://cdn.simpleicons.org/linux" width="18" alt="Linux"/> Linux · <img src="https://cdn.simpleicons.org/prometheus" width="18" alt="Prometheus"/> Prometheus · <img src="https://cdn.simpleicons.org/grafana" width="18" alt="Grafana"/> Grafana · MLflow · DVC · Dagster · pytest |
 
-<tr>
-<td width="22%" valign="top"><strong>Backend · frontend</strong></td>
-<td valign="top">
-<img src="https://img.shields.io/badge/FastAPI-0D1117?style=flat-square&logo=fastapi&logoColor=009688" alt="FastAPI"/>
-<img src="https://img.shields.io/badge/Laravel-0D1117?style=flat-square&logo=laravel&logoColor=FF2D20" alt="Laravel"/>
-<img src="https://img.shields.io/badge/React-0D1117?style=flat-square&logo=react&logoColor=61DAFB" alt="React"/>
-<img src="https://img.shields.io/badge/Next.js-0D1117?style=flat-square&logo=nextdotjs&logoColor=FFFFFF" alt="Next.js"/>
-<img src="https://img.shields.io/badge/Vite-0D1117?style=flat-square&logo=vite&logoColor=646CFF" alt="Vite"/>
-<img src="https://img.shields.io/badge/Tailwind_CSS-0D1117?style=flat-square&logo=tailwindcss&logoColor=06B6D4" alt="Tailwind CSS"/>
-</td>
-</tr>
-
-<tr>
-<td width="22%" valign="top"><strong>Data · ML</strong></td>
-<td valign="top">
-<img src="https://img.shields.io/badge/scikit--learn-0D1117?style=flat-square&logo=scikitlearn&logoColor=F7931E" alt="scikit-learn"/>
-<img src="https://img.shields.io/badge/TensorFlow-0D1117?style=flat-square&logo=tensorflow&logoColor=FF6F00" alt="TensorFlow"/>
-<img src="https://img.shields.io/badge/PostgreSQL-0D1117?style=flat-square&logo=postgresql&logoColor=4169E1" alt="PostgreSQL"/>
-<img src="https://img.shields.io/badge/MySQL-0D1117?style=flat-square&logo=mysql&logoColor=4479A1" alt="MySQL"/>
-<img src="https://img.shields.io/badge/Redis-0D1117?style=flat-square&logo=redis&logoColor=DC382D" alt="Redis"/>
-<br/>
-<img src="https://img.shields.io/badge/Pandas-0D1117?style=flat-square&logo=pandas&logoColor=150458" alt="Pandas"/>
-<img src="https://img.shields.io/badge/NumPy-0D1117?style=flat-square&logo=numpy&logoColor=013243" alt="NumPy"/>
-<img src="https://img.shields.io/badge/XGBoost-0D1117?style=flat-square&logo=xgboost&logoColor=4285F4" alt="XGBoost"/>
-<img src="https://img.shields.io/badge/SHAP-0D1117?style=flat-square&logoColor=FFFFFF" alt="SHAP"/>
-</td>
-</tr>
-
-<tr>
-<td width="22%" valign="top"><strong>MLOps · DevOps</strong></td>
-<td valign="top">
-<img src="https://img.shields.io/badge/Docker-0D1117?style=flat-square&logo=docker&logoColor=2496ED" alt="Docker"/>
-<img src="https://img.shields.io/badge/GitHub_Actions-0D1117?style=flat-square&logo=githubactions&logoColor=2088FF" alt="GitHub Actions"/>
-<img src="https://img.shields.io/badge/Git-0D1117?style=flat-square&logo=git&logoColor=F05032" alt="Git"/>
-<img src="https://img.shields.io/badge/Linux-0D1117?style=flat-square&logo=linux&logoColor=FFFFFF" alt="Linux"/>
-<img src="https://img.shields.io/badge/Prometheus-0D1117?style=flat-square&logo=prometheus&logoColor=E6522C" alt="Prometheus"/>
-<img src="https://img.shields.io/badge/Grafana-0D1117?style=flat-square&logo=grafana&logoColor=F46800" alt="Grafana"/>
-<br/>
-<img src="https://img.shields.io/badge/MLflow-0D1117?style=flat-square&logo=mlflow&logoColor=0194E2" alt="MLflow"/>
-<img src="https://img.shields.io/badge/DVC-0D1117?style=flat-square&logo=dvc&logoColor=13ADC7" alt="DVC"/>
-<img src="https://img.shields.io/badge/Dagster-0D1117?style=flat-square&logo=dagster&logoColor=00AEEF" alt="Dagster"/>
-<img src="https://img.shields.io/badge/pytest-0D1117?style=flat-square&logo=pytest&logoColor=0A9EDC" alt="pytest"/>
-</td>
-</tr>
-</table>
-
-<br/>
-
-<img src="assets/divider.svg" width="100%" height="12" alt=""/>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Sow221/Sow221/main/assets/divider.svg" width="100%" alt=""/>
+</p>
 
 ## 04 · Information systems
 
-<table cellpadding="12">
-<tr>
-<td width="7%" align="center" valign="middle">
-<img src="https://raw.githubusercontent.com/primer/octicons/main/icons/git-branch-16.svg" width="18" height="18" alt=""/>
-</td>
-<td width="24%" valign="top"><strong>Workflow modelling</strong></td>
-<td valign="top">Tontine cycles, credit decisions, human-review queues</td>
-</tr>
+| Workflow modelling                                    | Audit & traceability                              |
+| ----------------------------------------------------- | ------------------------------------------------- |
+| Tontine cycles, credit decisions, human-review queues | Append-only audit logs, versioned data and models |
 
-<tr>
-<td align="center" valign="middle">
-<img src="https://raw.githubusercontent.com/primer/octicons/main/icons/search-16.svg" width="18" height="18" alt=""/>
-</td>
-<td valign="top"><strong>Audit &amp; traceability</strong></td>
-<td valign="top">Append-only audit logs, versioned data and models</td>
-</tr>
+| Access control                                  | Integration                                     |
+| ----------------------------------------------- | ----------------------------------------------- |
+| JWT, OTP, role-based permissions, multi-tenancy | Mobile-money payments, messaging APIs, webhooks |
 
-<tr>
-<td align="center" valign="middle">
-<img src="https://raw.githubusercontent.com/primer/octicons/main/icons/shield-16.svg" width="18" height="18" alt=""/>
-</td>
-<td valign="top"><strong>Access control</strong></td>
-<td valign="top">JWT, OTP, role-based permissions, multi-tenancy</td>
-</tr>
-
-<tr>
-<td align="center" valign="middle">
-<img src="https://raw.githubusercontent.com/primer/octicons/main/icons/plug-16.svg" width="18" height="18" alt=""/>
-</td>
-<td valign="top"><strong>Integration</strong></td>
-<td valign="top">Mobile-money payments, messaging APIs, webhooks</td>
-</tr>
-</table>
-
-<br/>
-
-<img src="assets/divider.svg" width="100%" height="12" alt=""/>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Sow221/Sow221/main/assets/divider.svg" width="100%" alt=""/>
+</p>
 
 ## 05 · Currently
 
-<table>
-<tr>
-<td width="7%" align="center" valign="middle">
-<img src="https://raw.githubusercontent.com/primer/octicons/main/icons/telescope-16.svg" width="18" height="18" alt=""/>
-</td>
-<td valign="top"><strong>building</strong></td>
-<td valign="top">CIF: moving from synthetic to real-data validation</td>
-</tr>
+|                                                                                                                                  |                                                      |
+| -------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------- |
+| <img src="https://raw.githubusercontent.com/primer/octicons/main/icons/workflow-16.svg" width="16" alt=""/> **Building**         | CIF: moving from synthetic to real-data validation   |
+| <img src="https://raw.githubusercontent.com/primer/octicons/main/icons/mortar-board-16.svg" width="16" alt=""/> **Deepening**    | Software architecture · ML engineering               |
+| <img src="https://raw.githubusercontent.com/primer/octicons/main/icons/comment-discussion-16.svg" width="16" alt=""/> **Ask me** | Credit scoring · MLOps · Laravel · FastAPI           |
+| <img src="https://raw.githubusercontent.com/primer/octicons/main/icons/briefcase-16.svg" width="16" alt=""/> **Open to**         | Internships · junior software / ML engineering roles |
 
-<tr>
-<td align="center" valign="middle">
-<img src="https://raw.githubusercontent.com/primer/octicons/main/icons/mortar-board-16.svg" width="18" height="18" alt=""/>
-</td>
-<td valign="top"><strong>deepening</strong></td>
-<td valign="top">software architecture · ML engineering</td>
-</tr>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Sow221/Sow221/main/assets/footer-wave.svg" width="100%" alt=""/>
+</p>
 
-<tr>
-<td align="center" valign="middle">
-<img src="https://raw.githubusercontent.com/primer/octicons/main/icons/comment-discussion-16.svg" width="18" height="18" alt=""/>
-</td>
-<td valign="top"><strong>ask me</strong></td>
-<td valign="top">credit scoring · MLOps · Laravel · FastAPI</td>
-</tr>
-
-<tr>
-<td align="center" valign="middle">
-<img src="https://raw.githubusercontent.com/primer/octicons/main/icons/zap-16.svg" width="18" height="18" alt=""/>
-</td>
-<td valign="top"><strong>open to</strong></td>
-<td valign="top">internships · junior software / ML engineering roles</td>
-</tr>
-</table>
-
-<br/>
-
-<img src="assets/footer-wave.svg" width="100%" alt=""/>
-
-<div align="center">
-<sub>Built with care in Dakar · <a href="https://portefolio-ms.vercel.app">portfolio</a> · <a href="https://www.linkedin.com/in/ms-officiel">LinkedIn</a></sub>
-</div>
+<p align="center">
+  <a href="https://portefolio-ms.vercel.app">Portfolio</a>
+  &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/ms-officiel/">LinkedIn</a>
+</p>
