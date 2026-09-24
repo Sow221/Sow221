@@ -6,7 +6,7 @@
 
 I build maintainable, testable, and deployable software systems, APIs, and data-driven platforms<br/>extended with machine learning where it creates real business value.
 
-[🌐 Portfolio](https://portefolio-ms.vercel.app) &nbsp;•&nbsp; [💼 LinkedIn](https://www.linkedin.com/in/ms-officiel) &nbsp;•&nbsp; [⚡ Live API Docs](https://cif-credit-intelligence.onrender.com/docs) &nbsp;•&nbsp; [✉️ Contact](mailto:votre-email@example.com)
+[🌐 Portfolio](https://portefolio-ms.vercel.app) &nbsp;•&nbsp; [💼 LinkedIn](https://www.linkedin.com/in/ms-officiel) &nbsp;•&nbsp; [⚡ Live API Docs](https://cif-credit-intelligence.onrender.com/docs)
 
 </div>
 
@@ -23,7 +23,7 @@ I build maintainable, testable, and deployable software systems, APIs, and data-
 
 ---
 
-## 🚀 Featured Projects
+## 🚀 Selected Work
 
 ### 💳 [CIF Credit Engine](https://github.com/Sow221/cif-credit-intelligence) &nbsp;·&nbsp; <sub>Credit-risk MLOps Platform</sub>
 
@@ -43,7 +43,7 @@ I build maintainable, testable, and deployable software systems, APIs, and data-
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
-👉 **[Repository](https://github.com/Sow221/cif-credit-intelligence)** · **[Live API Docs](https://cif-credit-intelligence.onrender.com/docs)** *(Free tier — first request may take a minute)*
+👉 **[Repository](https://github.com/Sow221/cif-credit-intelligence)** · **[Live API Docs](https://cif-credit-intelligence.onrender.com/docs)** <sub>(Free tier — first request may take a minute)</sub>
 
 ---
 
@@ -82,7 +82,7 @@ I build maintainable, testable, and deployable software systems, APIs, and data-
 
 ---
 
-## 🏗️ System Architecture Overview
+## 🏗️ How the CIF System Fits Together
 
 ```mermaid
 flowchart LR
